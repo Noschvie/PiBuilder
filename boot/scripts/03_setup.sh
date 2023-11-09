@@ -110,6 +110,7 @@ dirmngr
 gnupg-agent
 gnupg2
 hopenpgp-tools
+libnss3-tools
 openssl
 pcscd
 python3-gnupg
@@ -119,7 +120,6 @@ secure-delete
 yubikey-manager
 yubikey-personalization
 CRYPTO_PACKAGES
-
 
 # python3-ykman is not available on buster
 if ! is_running_OS_release buster ; then
